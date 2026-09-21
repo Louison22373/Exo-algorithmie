@@ -42,3 +42,6 @@ while (compte >= 0) {
     console.log(compte);
     compte--;
 }
+
+console.log("Décollage !")
+
