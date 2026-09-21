@@ -21,3 +21,18 @@ let listes = [];
 const monMot = ("cadeau")
 const motInverse = "cadeau".split('').reverse().join('');
 console.log(motInverse)
+
+
+//partie 2 exo
+//exo 1 
+const max = 5;
+
+for (let i = 1; i <= max; i++) {
+  console.log('*'.repeat(i));
+}
+
+//exo 3
+const superHeros = ["Batman", "Spider-Man", "Wonder Woman", "Iron Man"];
+superHeros.forEach(function(nom) {
+    console.log("Je suis fan de " + nom);
+});
