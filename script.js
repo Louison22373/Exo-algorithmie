@@ -31,8 +31,14 @@ for (let i = 1; i <= max; i++) {
   console.log('*'.repeat(i));
 }
 
-//exo 3
+//exo 2
 const superHeros = ["Batman", "Spider-Man", "Wonder Woman", "Iron Man"];
 superHeros.forEach(function(nom) {
     console.log("Je suis fan de " + nom);
 });
+//exo 3
+let compte = 10
+while (compte >= 0) {
+    console.log(compte);
+    compte--;
+}
